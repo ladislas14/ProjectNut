@@ -1,0 +1,110 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+	margin: 20px;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1.5em;
+	background-size:1.5em 1.5em;
+	background-position: 0 -5px;
+	color:#7a7a7a;
+}
+
+body:hover{
+  	background-image: -webkit-linear-gradient(top, #ffffff, #ffffff 98%, #000000 100%); 
+}
+
+p,ul,blockquote{ margin-bottom: 1.5em; }
+a{ color:#2277d2; text-decoration: none; }
+a:hover{ text-decoration: underline; }
+h1,h2,h3,h4,h5,h6{ margin-bottom: 24px; color:#333; font-family: "PT Sans", Arial, Helvetica, sans-serif;}
+h1{ font-size: 1.5em;}
+h2{ font-size: 1.325em;}
+h3{ font-size: 1.25em;}
+h4{ font-size: 1.125em;}
+h5,h6{ font-size: 1em;}
+
+ul, ol{ margin-left: 20px; }
+ul{ list-style: square inside; overflow: hidden;}
+ul ul, ol ul{ margin-bottom: 0; }
+ol{ list-style: decimal inside; overflow: hidden;}
+ol ol, ul ol{ list-style: upper-roman; }
+
+strong{ color:#333; font-weight: bold}
+
+blockquote{
+	margin: 0 60px 0 45px;
+	border-left: 5px solid #2277d2;
+	padding-left: 15px;
+	font-style: italic;
+	font-family: "PT Sans", Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	margin-bottom: 1.5em;
+}
+
+blockquote p{ margin-bottom: 0;}
+
+blockquote em{
+	display: block;
+	text-align: right;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	font-style:normal;
+}
+
+blockquote em:before{
+	content:'—';
+}
+
+img.alignleft{
+	float: left; margin-right: 20px;
+}
+
+img.aligncenter{
+	display: block; margin: 0 auto;
+}
+
+img.alignright{
+	float: right; margin-left: 20px;
+}

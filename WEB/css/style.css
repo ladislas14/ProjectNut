@@ -1,0 +1,281 @@
+@charset "CP850";
+/* line 17, ../../../../../../../Ruby/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 20, ../../../../../../../Ruby/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, ../../../../../../../Ruby/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, ../../../../../../../Ruby/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 26, ../../../../../../../Ruby/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 28, ../../../../../../../Ruby/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 101, ../../../../../../../Ruby/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 30, ../../../../../../../Ruby/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 114, ../../../../../../../Ruby/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 8, ../scss/style.scss */
+body {
+  background: url("img/background.png"), url("img/gradient.png") repeat-x;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.5em;
+  color: #8c8c8c;
+}
+
+/* ---------------------- */
+/*  ==   Typographie      */
+/* ---------------------- */
+/* line 19, ../scss/style.scss */
+p, ul, blockquote {
+  margin-bottom: 1.5em;
+}
+
+/* line 20, ../scss/style.scss */
+a {
+  color: #249ed7;
+  text-decoration: none;
+}
+
+/* line 21, ../scss/style.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 22, ../scss/style.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 24px;
+  color: #55545c;
+  font-family: "PT Sans", Arial, Helvetica, sans-serif;
+}
+
+/* line 23, ../scss/style.scss */
+h1 {
+  font-size: 1.5em;
+}
+
+/* line 24, ../scss/style.scss */
+h2 {
+  font-size: 1.325em;
+}
+
+/* line 25, ../scss/style.scss */
+h3 {
+  font-size: 1.25em;
+}
+
+/* line 26, ../scss/style.scss */
+h4 {
+  font-size: 1.125em;
+}
+
+/* line 27, ../scss/style.scss */
+h5, h6 {
+  font-size: 1em;
+}
+
+/* line 29, ../scss/style.scss */
+ul, ol {
+  margin-left: 20px;
+}
+
+/* line 30, ../scss/style.scss */
+ul {
+  list-style: square inside;
+  overflow: hidden;
+}
+
+/* line 31, ../scss/style.scss */
+ul ul, ol ul {
+  margin-bottom: 0;
+}
+
+/* line 32, ../scss/style.scss */
+ol {
+  list-style: decimal inside;
+  overflow: hidden;
+}
+
+/* line 33, ../scss/style.scss */
+ol ol, ul ol {
+  list-style: upper-roman;
+}
+
+/* line 35, ../scss/style.scss */
+strong {
+  color: #55545c;
+  font-weight: bold;
+}
+
+/* line 37, ../scss/style.scss */
+blockquote {
+  margin: 0 60px 0 45px;
+  border-left: 5px solid #249ed7;
+  padding-left: 15px;
+  font-style: italic;
+  font-family: "PT Sans", Arial, Helvetica, sans-serif;
+  overflow: hidden;
+  margin-bottom: 1.5em;
+}
+
+/* line 47, ../scss/style.scss */
+blockquote p {
+  margin-bottom: 0;
+}
+
+/* line 49, ../scss/style.scss */
+blockquote em {
+  display: block;
+  text-align: right;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+/* line 56, ../scss/style.scss */
+blockquote em:before {
+  content: '—';
+}
+
+/* line 60, ../scss/style.scss */
+img.alignleft {
+  float: left;
+  margin-right: 20px;
+}
+
+/* line 64, ../scss/style.scss */
+img.aligncenter {
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 68, ../scss/style.scss */
+img.alignright {
+  float: right;
+  margin-left: 20px;
+}
+
+/* ---------------------- */
+/*  ==   Header           */
+/* ---------------------- */
+/* line 75, ../scss/style.scss */
+#header {
+  width: 100%;
+  height: 70px;
+  border-bottom: 3px solid rgba(155, 158, 163, 0.5);
+}
+/* line 80, ../scss/style.scss */
+#header p {
+  line-height: 70px;
+  font-size: 14px;
+}
+
+/* ---------------------- */
+/*  ==   Content          */
+/* ---------------------- */
+/* =! Top */
+/* line 92, ../scss/style.scss */
+#top {
+  background: url("img/top-background.png");
+  border-bottom: 1px solid #919191;
+}
+/* line 95, ../scss/style.scss */
+#top .wrap {
+  -moz-box-shadow: 0px 1px 12px #555555;
+  -webkit-box-shadow: 0px 1px 12px #555555;
+  -o-box-shadow: 0px 1px 12px #555555;
+  box-shadow: 0px 1px 12px #555555;
+}
+/* line 99, ../scss/style.scss */
+#top img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+/* =! Projects */
+/* line 107, ../scss/style.scss */
+#content {
+  width: 960px;
+  margin: 0 auto;
+}
+/* line 111, ../scss/style.scss */
+#content .project {
+  float: left;
+  margin: 5px;
+}
+/* line 115, ../scss/style.scss */
+#content .project a {
+  text-align: center;
+  color: #8c8c8c;
+}
+/* line 118, ../scss/style.scss */
+#content .project a:hover {
+  text-decoration: none;
+}
+/* line 121, ../scss/style.scss */
+#content .project .info {
+  display: none;
+}
+/* line 125, ../scss/style.scss */
+#content .project.unfold {
+  height: 320px;
+  width: 630px;
+}
+/* line 130, ../scss/style.scss */
+#content .project.unfold .info {
+  display: block;
+}
+/* line 134, ../scss/style.scss */
+#content .project.unfold .thumb {
+  display: none;
+}

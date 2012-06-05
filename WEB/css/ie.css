@@ -1,0 +1,10 @@
+/* line 1, ../scss/ie.scss */
+body {
+  background: url("img/background.png");
+}
+
+/* line 5, ../scss/ie.scss */
+#projects .project {
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://localhost/ProjectNut/WEB/css/img/project.png",sizingMethod="scale");
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://localhost/ProjectNut/WEB/css/img/project.png',sizingMethod='scale')";
+}
